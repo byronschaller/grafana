@@ -1,6 +1,6 @@
 name 'grafana'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Byron Schaller'
+maintainer_email 'byron.schaller@gmail.com'
 license 'all_rights'
 description 'Installs/Configures grafana'
 long_description 'Installs/Configures grafana'
