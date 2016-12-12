@@ -9,3 +9,4 @@ source_url 'https://github.com/byronschaller/grafana'
 issues_url 'https://github.com/byronschaller/grafana/issues'
 chef_version "~> 12.14"
 supports "centos", "~> 7"
+supports "ubuntu"
