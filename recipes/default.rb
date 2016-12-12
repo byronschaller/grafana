@@ -14,3 +14,11 @@ yum_repository 'grafana' do
   sslverify true
   sslcacert "/etc/pki/tls/certs/ca-bundle.crt"
 end
+
+package 'grafana' do
+  action :install
+end
+
+service 'grafana-server' do
+  action [:enable, :start]
+end

@@ -9,3 +9,12 @@ describe yum.repo('grafana') do
   it { should exist }
   it { should be_enabled }
 end
+
+describe package('grafana') do
+  it { should be_installed }
+end
+
+describe service('grafana-server') do
+  it { should be_running }
+  it { should be_enabled }
+end
